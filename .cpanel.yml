@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/renan94/renansousaengonline.com.br/proposta-magnetica/
+    - /bin/cp -r index.html $DEPLOYPATH
+    - /bin/cp -r assets $DEPLOYPATH
